@@ -121,7 +121,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CircleAvatar(
-                  radius: 65,
+                  radius: 50,
                   backgroundImage: NetworkImage(
                       'https://images5.alphacoders.com/391/thumb-1920-391658.jpg'),
                 ),
@@ -154,7 +154,7 @@ class MyApp extends StatelessWidget {
                 Card(
                   color: Colors.black,
                   shadowColor: Colors.purple,
-                  margin: EdgeInsets.symmetric(vertical: 7, horizontal: 20),
+                  margin: EdgeInsets.symmetric(vertical: 3, horizontal: 20),
                   child: Padding(
                     padding: const EdgeInsets.all(7.0),
                     child: Row(
@@ -186,7 +186,7 @@ class MyApp extends StatelessWidget {
                 Card(
                   color: Colors.black,
                   shadowColor: Colors.purple,
-                  margin: EdgeInsets.symmetric(vertical: 7, horizontal: 20),
+                  margin: EdgeInsets.symmetric(vertical: 3, horizontal: 20),
                   child: Padding(
                     padding: const EdgeInsets.all(7.0),
                     child: Row(
